@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: google-cloud-functions.api.streamdata.gallery
+title: Streamdata Gallery Google Cloud Functions
+url: google-cloud-functions.streamdata.gallery
 tag: Google Cloud Functions
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: google-cloud-functions
 github_branch: master
 collections:
