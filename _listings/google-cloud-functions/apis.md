@@ -1,5 +1,6 @@
 ---
 name: Google Cloud Functions
+x-slug: google-cloud-functions
 description: Cloud computing has made possible fully serverless models of computing
   where logic can be spun up on-demand in response to events originating from anywhere.
   Construct applications from bite-sized business logic billed to the nearest 100
@@ -8,30 +9,38 @@ description: Cloud computing has made possible fully serverless models of comput
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Cloud-Functions.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Serverless
-- Google APIs
-- Deployment
-created: "2018-03-25"
-modified: "2018-03-25"
-url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-functions/master/_listings/google-cloud-functions/apis.yaml
+tags: Google Cloud Functions
+created: "2018-05-21"
+modified: "2018-05-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-functions/master/_listings/google-cloud-functions/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Cloud Functions API
-  description: Cloud computing has made possible fully serverless models of computing
-    where logic can be spun up on-demand in response to events originating from anywhere
+- name: Google Cloud Functions API Get Location
+  x-api-slug: google-cloud-functions-api
+  description: Get information about a location.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Cloud-Functions.png
-  humanURL: ""
+  humanURL: https://cloud.google.com/functions/
+  baseURL: ://cloudfunctions.googleapis.com////v1/{name}
+  tags: Location
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-functions/master/_listings/google-cloud-functions/v1name-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-functions/master/_listings/google-cloud-functions/v1name-get-openapi.md
+- name: Google Cloud Functions API
+  x-api-slug: google-cloud-functions-api
+  description: Cloud computing has made possible fully serverless models of computing
+    where logic can be spun up on-demand in response to events originating from anywhere.
+    Construct applications from bite-sized business logic billed to the nearest 100
+    milliseconds, only while your code is running. Serve users from zero to planet-scale,
+    all without managing any infrastructure.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Cloud-Functions.png
+  humanURL: https://cloud.google.com/functions/
   baseURL: ://cloudfunctions.googleapis.com//
-  tags:
-  - Stack Network
-  - Serverless
-  - Google APIs
-  - Deployment
+  tags: Google Cloud Functions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-functions/master/_listings/google-cloud-functions/v1-name-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-functions/master/_listings/google-cloud-functions/openapi.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/functions/docs/release-notes
