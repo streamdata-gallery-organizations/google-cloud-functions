@@ -4,7 +4,7 @@ x-collection-name: Google Cloud Functions
 x-complete: 1
 info:
   title: Google Cloud Functions
-  description: api-for-managing-lightweight-userprovided-functions-executed-in-response-to-events
+  description: api-for-managing-lightweight-userprovided-functions-executed-in-response-to-events-
   contact:
     name: Google
     url: https://google.com
