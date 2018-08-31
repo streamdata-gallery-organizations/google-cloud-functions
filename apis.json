@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Google Cloud Functions",
+	"description": "This is a repository of google cloud functions APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/google-cloud-functions.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://google-cloud-functions.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Google Cloud Functions",
+			"x-api-slug": "google-cloud-functions",
+			"description": "Cloud computing has made possible fully serverless models of computing where logic can be spun up on-demand in response to events originating from anywhere. Construct applications from bite-sized business logic billed to the nearest 100 milliseconds, only while your code is running. Serve users from zero to planet-scale, all without managing any infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Cloud-Functions.png",
+			"humanURL": "https://cloud.google.com/functions/",
+			"baseURL": "://cloudfunctions.googleapis.com//",
+			"tags": "Google Cloud Functions",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-functions/master/_listings/google-cloud-functions/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Google Cloud Functions",
+	"include": [
+		{
+			"name": "Google Cloud Functions",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-functions/master/_listings/google-cloud-functions/apis.yaml"
+		}
+	]
+}
